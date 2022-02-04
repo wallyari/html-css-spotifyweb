@@ -32,3 +32,30 @@ footer {
   height: 10vh;
   background-color: #282828;
 }
+
+.flex {
+    display: flex;
+}
+.relative {
+    position: relative;
+}
+main div.upgrade {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.350);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    justify-content: end;
+    align-items: center;
+}
+main div.upgrade a.upgrade-btn {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: .5rem;
+    padding: .5rem 2.5rem;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+} 

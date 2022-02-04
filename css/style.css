@@ -10,7 +10,10 @@
   padding: 0;
 }
 
-/* 141922 */
+body {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
 
 main {
   height: 90vh;

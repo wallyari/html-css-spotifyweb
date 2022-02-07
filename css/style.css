@@ -27,61 +27,54 @@ background-color: #aa2724;
   /* #141922 */
 }
 
-main nav.nav-col{
-
-
-}
-
-
-main nav.nav-col div.list-nav{
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
 .main-content {
 width: 100%;
 background-color: #141922;
 }
-main nav.nsvcol div.list-nav img {
-    width: 50%;
-    margin: .5rem auto;
-}
-
-
-
-
 
 footer {
 height: 10vh;
 background-color: #282828;
 }
 
-.flex {
-display: flex;
-}
-.relative {
- position: relative;
-}
+/* UPGRADE SECTION */
 
-/* <!-- Upgrade Bar --> */
-main div.upgrade {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.350);
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 8vh;
-    justify-content: end;
+.upgrade-bar{
+    background-color: #080b12;
+    height: 80px;
+    text-transform:uppercase ;
     align-items: center;
-}
-main div.upgrade a.upgrade-btn {
-    color: white;
+  }
+  
+  .container-btn{
+    overflow: hidden;
+  }
+
+
+  .btn-upgrade{
+    border-radius: 40px;
+    padding: .5rem;
+    border: solid white;
+    height: 50%;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .flex-between{
+    justify-content: space-between;
+  }
+
+  a{
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-right: .5rem;
-    padding: .5rem 2.5rem;
-    border: 1px solid white;
-    border-radius: 1.5rem;
-} 
+    color: white;
+  }
+
+
+
+
+
+
+
+

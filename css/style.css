@@ -16,15 +16,15 @@ body {
 }
 
 main{
-    background-color: #141922;
+    background-color: #080b12;
     height: calc(100vh - 150px);
     width: 100vw;
   }
 
-main nav {
-width: 350px;
+/* main nav {
+width: 350px; */
 
-background-color: #aa2724;
+background-color: #141922;
   /* #141922 */
 }
 
@@ -91,6 +91,56 @@ nav p{
     text-transform: uppercase;
     padding: .5rem;
 }
+nav{
+    height: 100%;
+    width: 200px;
+}
+
+nav ul li{
+    padding: .5rem;
+}
+
+nav ul li i{
+    width: 10%;
+    text-align: center;
+    margin-right: .5rem;
+}
+.nav-list{
+    overflow: auto;
+}
+.nav-list{
+    height: 40vh;
+    font-size: .8rem;
+}
+.plus{
+    background-color: grey;
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.nav-bottom div:first-child{
+    border-bottom: #525252 solid;
+    font-size: .8rem;
+  }
+  .user{
+    font-size: 1rem;
+  }
+  .nav-bottom span{
+    margin-left: .5rem;
+  }
+  .nav-bottom div{
+    padding: .5rem;
+  }
+/* LOGO */
+
+.section-logo, nav{    
+    width: 150px;
+    background-color: black;
+  }
+
 
 
 

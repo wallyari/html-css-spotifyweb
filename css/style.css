@@ -5,43 +5,66 @@
 /* Reset */
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
     color: white;
-  }
+}
 
 main {
-  height: 90vh;
-  display: flex;
+height: 90vh;
+display: flex;
 }
 
 main nav {
-  width: 350px;
-  background-color: #aa2724;
+width: 350px;
+
+background-color: #aa2724;
   /* #141922 */
+}
+
+main nav.nav-col{
+
 
 }
-.main-content {
-  width: 100%;
-  background-color: #141922;
+
+
+main nav.nav-col div.list-nav{
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+.main-content {
+width: 100%;
+background-color: #141922;
+}
+main nav.nsvcol div.list-nav img {
+    width: 50%;
+    margin: .5rem auto;
+}
+
+
+
+
 
 footer {
-  height: 10vh;
-  background-color: #282828;
+height: 10vh;
+background-color: #282828;
 }
 
 .flex {
-    display: flex;
+display: flex;
 }
 .relative {
-    position: relative;
+ position: relative;
 }
+
+/* <!-- Upgrade Bar --> */
 main div.upgrade {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.350);

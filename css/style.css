@@ -15,10 +15,11 @@ body {
     color: white;
 }
 
-main {
-height: 90vh;
-display: flex;
-}
+main{
+    background-color: #141922;
+    height: calc(100vh - 150px);
+    width: 100vw;
+  }
 
 main nav {
 width: 350px;
@@ -44,32 +45,52 @@ background-color: #282828;
     height: 80px;
     text-transform:uppercase ;
     align-items: center;
-  }
-  
-  .container-btn{
+}
+
+.container-btn{
     overflow: hidden;
-  }
+}
 
 
-  .btn-upgrade{
+.btn-upgrade{
     border-radius: 40px;
     padding: .5rem;
     border: solid white;
     height: 50%;
-  }
+}
 
-  .flex{
+.flex{
     display: flex;
-  }
+}
 
-  .flex-between{
+.flex-between{
     justify-content: space-between;
-  }
+}
 
-  a{
+a{
     text-decoration: none;
     color: white;
-  }
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.container-btn{
+    overflow: hidden;
+}
+
+.white{
+    color: white;
+}
+
+.gray{
+    color: #626262;
+}
+nav p{
+    text-transform: uppercase;
+    padding: .5rem;
+}
 
 
 

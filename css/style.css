@@ -58,7 +58,7 @@ background-color: #141922;
 
 a{
     text-decoration: none;
-    color: white;
+    color:#a3a3a3;
 }
 
 .flex-col{
@@ -74,7 +74,7 @@ a{
 }
 
 .gray{
-    color: #626262;
+    color: #a3a3a3;
 }
 nav p{
     text-transform: uppercase;
@@ -295,7 +295,39 @@ footer {
 .btn-upgrade:hover{
     padding: 10px;
 }
+a:hover{
+    color: white;
+}
+li:hover .fa-plus{
+    background-color: white;
+}
 
+.relative{
+    position: relative;
+}
 
+.absolute{
+    position: absolute;
+}
+.card:hover .overlay{
+    background-color: rgba(0, 0, 0 , .4);
+}
+.card:hover .card-play{
+    display: block;
+}
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card-play i{
+    font-size: 3rem;
+}
+.card-play{
+    display: none;
+}
 
 

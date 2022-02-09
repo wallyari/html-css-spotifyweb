@@ -26,8 +26,8 @@
 
 
     <main class="flex">
-    <nav class="flex flex-between flex-col grey"> 
-        <div class="container-btn">
+    <nav class="flex flex-between flex-col gray"> 
+        <div class="container-playlist">
             <div class="nav-bottom">
             <ul class="flex flex-col">
                 <li class="white"><i class="fas fa-home"></i><span>Home</span></li>
@@ -35,16 +35,17 @@
                 <li><i class="fas fa-grip-lines-vertical"></i><span>La tua libreria</span></li>
                 </ul>
             </div>
-            <p>playlist</p>
+            <p class="white">playlist</p>
             <div class="nav-list">
             <ul>
-                <li><i class="fas fa-plus plus"></i><span>Crea Playlist</span></li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>                
+                <li><a href="#"><i class="fas fa-plus plus"></i><span>Crea Playlist</span></a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>
+                <li><a href="#"> Nome Playlist</a></li>               
             </ul>
         </div>
     </div>
@@ -55,7 +56,7 @@
         </div>
         <div class="user">
             <i class="fas fa-user-circle"></i>
-            <span class="white">Creato per John Doe</span>
+            <span class="white"> John Doe</span>
         </div>
     </div>
     </nav>
@@ -74,7 +75,14 @@
             <h2 class="title-main mrg-10">Recently played</h2>
             <div class="row flex">
             <div class="card">
+                <div class="container-img relative">
                 <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                <div class="absolute flex overlay">
+                    <div class="card-play">
+                        <i class="far fa-play-circle"></i>
+                    </div>
+                </div>
+                </div>
                 <h3>Heavy metal</h3>
                 <p class="mrg-10 gray">Subtitle</p>
             </div>
@@ -139,7 +147,7 @@
     </main>
     <!-- Footer -->
     <footer class="flex">
-        <div class="song-played-footer flex">
+        <div class="song-played-footer flex gray">
             <img src="img/sinister.jpeg" alt="Immagine brano Sinister">
             <div class="song-name-footer">
                 <h3 class="white">Sinister</h3>
@@ -149,7 +157,7 @@
             <i class="far fa-folder"></i>
         </div>
 
-        <div class="player-footer flex">
+        <div class="player-footer flex ">
             <div class="player-buttons flex">
                 <i class="fas fa-random white"></i>
                 <i class="fas fa-step-backward white"></i>
@@ -166,7 +174,7 @@
             </div>
         </div>
 
-        <div class="volume-stream-footer flex">
+        <div class="volume-stream-footer flex ">
             <i class="fas fa-list white"></i>
             <i class="fas fa-desktop white"></i>
             <i class="fas fa-volume-up white"></i>

@@ -329,5 +329,9 @@ li:hover .fa-plus{
 .card-play{
     display: none;
 }
-
-
+.circle-overlay{
+    border-radius: 50%;    
+}
+.dash-green{
+    border-left: #acf51a solid ;
+  }

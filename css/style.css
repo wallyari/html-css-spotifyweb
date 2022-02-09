@@ -142,6 +142,15 @@ nav ul li i{
     overflow-x: hidden;
 
 }
+/* EX
+/* .container{
+    flex-basis: calc(94% / 6);
+    font-size: .9rem;
+    margin: 1% .5%;
+    overflow: auto;
+    overflow-x: hidden;
+
+} */ 
 
 
 .main-menu-bar ul li{
@@ -179,7 +188,7 @@ nav ul li i{
     gap: 2rem;    
 }
 .row .card{
-    width: 150px;
+    width: 13%;
     text-align: center;
     font-size: .8rem;
     

@@ -1,0 +1,16 @@
+/* // Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .row{
+    flex-wrap: wrap;
+    }
+    .row .card{
+        width: 20%;
+        font-size: .5rem;
+    }
+
+    }

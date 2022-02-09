@@ -334,4 +334,11 @@ li:hover .fa-plus{
 }
 .dash-green{
     border-left: #acf51a solid ;
+}
+
+footer a:hover{
+    text-decoration: underline white;
+}
+li:hover .fa-plus{
+    background-color: white;
   }

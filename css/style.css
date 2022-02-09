@@ -131,8 +131,7 @@ nav ul li i{
     background-color: black;
 }
 .container-logo{
-   width: 80%;
-
+    width: 80%;
 }
 .container{
     width: calc(100vw - 205px);
@@ -231,7 +230,7 @@ footer {
 
 .player-footer{
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
 }
@@ -241,24 +240,26 @@ footer {
 }
 
 .player-buttons i {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin: 0 20px;
 }
 
 .player-buttons .fa-play-circle {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .player-time {
     align-items: center;
+    /* padding-bottom: rem; */
 }
 
 .player-time h3 {
+    font-size: 1rem;
     font-weight: 200;
 }
 
 .time-bar {
-    margin: 0 20px;
+    margin: 0 25px;
     width: 700px;
     height: 7px;
     border-radius: 20px;
@@ -341,4 +342,16 @@ footer a:hover{
 }
 li:hover .fa-plus{
     background-color: white;
-  }
+}
+
+footer .fa-play-circle:hover{
+    font-size: 1.9rem;
+}
+.bar-circle .fa-circle{
+    display: none;
+
+    font-size: 1.5rem;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    }

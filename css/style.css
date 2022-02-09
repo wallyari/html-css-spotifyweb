@@ -130,6 +130,10 @@ nav ul li i{
     width: 200px;
     background-color: black;
 }
+.container-logo{
+   width: 80%;
+
+}
 .container{
     width: calc(100vw - 205px);
     font-size: .9rem;

@@ -36,7 +36,7 @@ background-color: #141922;
     align-items: center;
 }
 
-.container-btn{
+.container-playlist{
     overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ background-color: #141922;
     border-radius: 40px;
     padding: .5rem;
     border: solid white;
-    height: 50%;
+    /* height: 50%; (tolto per hover) */
 }
 
 .flex{
@@ -291,7 +291,10 @@ footer {
     background-color: #c1c1c1;
 }
 
-
+/* hover */
+.btn-upgrade:hover{
+    padding: 10px;
+}
 
 
 

@@ -236,7 +236,8 @@ footer {
 }
 
 .player-buttons {
-    align-items: center;
+        justify-content: center;
+        width: 100%;
 }
 
 .player-buttons i {
@@ -249,8 +250,9 @@ footer {
 }
 
 .player-time {
-    align-items: center;
-    /* padding-bottom: rem; */
+        align-items: center;
+        width: 100%;
+   
 }
 
 .player-time h3 {
@@ -274,6 +276,7 @@ footer {
 }
 
 .volume-stream-footer {
+    width: 25%;
     gap: 0 20px;
     align-items: center;
 }
@@ -355,3 +358,92 @@ footer .fa-play-circle:hover{
     right: -10px;
     top: -10px;
     }
+
+    /* // X-Small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+   
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          .section-logo, nav{
+            width:0;
+          }
+          .container-logo img{
+            margin: 20px 2px;
+            height: 100%;
+            padding: 5px;
+          }
+          .container-logo{
+            height: 40px;
+          }
+          /* .logo-spot{ da inserire
+            display: block;
+          } */
+          
+          .logo{
+            display: none;
+          }
+          .btn-upgrade{
+            font-size: .5rem;
+            margin-right: 15px;
+            padding: 0.2rem;
+          }
+          .nav-list{
+            display: none;
+          }
+          .nav-bottom {
+            display: none
+          }
+          nav ul li{
+            padding: .1rem;
+          }
+          .border-green , .nav-user div:first-child{
+            border: none;
+          }
+          nav{
+            font-size: 1.5rem;
+            margin: 0;
+            padding: .1rem;
+            width: 45px;
+          }
+          .nav-bottom{
+            text-align: center;
+          }
+          .nav-bottom ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0.4rem;
+          }
+          
+          main{
+            width: 100vw;
+          }
+          .container{
+            width: 100%;
+          }
+          .main-navbar ul{
+            justify-content: space-around;
+          }
+          .main-menu-bar ul li{
+            font-size: .6rem;
+            padding-top: 5px;
+            margin-right: 0.4rem;
+          }
+          .container h2 {
+            font-size: .9rem;
+          }
+          .container p {
+            font-size: .7rem;
+          }
+          .row img{
+            width: 100%;
+          }
+          .row .card{
+            width: 40%;
+            font-size: .6rem;
+          }
+
+    }    
